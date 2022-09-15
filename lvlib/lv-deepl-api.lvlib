@@ -4,6 +4,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="JSONParser_TranslateResponse.vi" Type="VI" URL="../JSONParser_TranslateResponse.vi"/>
+	<Item Name="private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Translate_Standard.vi" Type="VI" URL="../Translate_Standard.vi"/>
+		<Item Name="Translate_XMLHandling.vi" Type="VI" URL="../Translate_XMLHandling.vi"/>
+	</Item>
+	<Item Name="sub" Type="Folder">
+		<Item Name="JSONParser_TranslateResponse.vi" Type="VI" URL="../JSONParser_TranslateResponse.vi"/>
+	</Item>
+	<Item Name="TargetLang.ctl" Type="VI" URL="../TargetLang.ctl"/>
 	<Item Name="Translate.vi" Type="VI" URL="../Translate.vi"/>
 </Library>

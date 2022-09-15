@@ -19,7 +19,6 @@
 			<Item Name="Example-SimpleTranslator.vi" Type="VI" URL="../example/Example-SimpleTranslator.vi"/>
 		</Item>
 		<Item Name="lv-deepl-api.lvlib" Type="Library" URL="../lvlib/lv-deepl-api.lvlib"/>
-		<Item Name="TargetLang.ctl" Type="VI" URL="../lvlib/TargetLang.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
