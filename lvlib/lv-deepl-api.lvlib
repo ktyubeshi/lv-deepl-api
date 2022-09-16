@@ -10,8 +10,16 @@
 		<Item Name="Translate_XMLHandling.vi" Type="VI" URL="../Translate_XMLHandling.vi"/>
 	</Item>
 	<Item Name="sub" Type="Folder">
-		<Item Name="JSONParser_TranslateResponse.vi" Type="VI" URL="../JSONParser_TranslateResponse.vi"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Build HTTP Header.vi" Type="VI" URL="../Build HTTP Header.vi"/>
+		<Item Name="Get Server URL.vi" Type="VI" URL="../Get Server URL.vi"/>
+		<Item Name="Judge API Plan.vi" Type="VI" URL="../Judge API Plan.vi"/>
+		<Item Name="Translate_Standard - BuildPostData.vi" Type="VI" URL="../Translate_Standard - BuildPostData.vi"/>
+		<Item Name="Translate_XMLHandling - BuildPostData.vi" Type="VI" URL="../Translate_XMLHandling - BuildPostData.vi"/>
+		<Item Name="Translate - Response JSON Parser.vi" Type="VI" URL="../Translate - Response JSON Parser.vi"/>
 	</Item>
-	<Item Name="TargetLang.ctl" Type="VI" URL="../TargetLang.ctl"/>
+	<Item Name="typedef" Type="Folder">
+		<Item Name="TargetLang.ctl" Type="VI" URL="../TargetLang.ctl"/>
+	</Item>
 	<Item Name="Translate.vi" Type="VI" URL="../Translate.vi"/>
 </Library>
